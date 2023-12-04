@@ -1,0 +1,89 @@
+<LABEL>
+    Check: <INPUT TYPE=“checkbox" NAME=“box" >
+    </LABEL> <br><HR><br>
+<LABEL FOR="passwd">Пароль:</LABEL> 
+<INPUT TYPE="password" ID="passwd" NAME="password" SIZE="25"> <br><br>
+<INPUT TYPE="password" ID="passwd" NAME="password" SIZE="25">
+<LABEL FOR="passwd"> - пароль</LABEL>
+<br><HR><br>
+<label for=“login”>Имя: </label>
+<INPUT TYPE="text" ID="login" NAME="login" AUTOFOCUS>
+<label for=“pass”> Пароль: </label>
+<INPUT TYPE="password" ID="pass" NAME="password" >
+<br><HR><br>
+<label>  
+<input type="checkbox" name="val_1" id="chbox1" checked>  1
+</label>
+<label> 
+<input type="checkbox" name="val_2" id="chbox2"> 2
+</label>
+<br><HR><br>
+<label>
+     <input type="checkbox" name="hobby[]"> check1
+</label><br>
+<label>
+     <input type="checkbox" name="hobby[]"> check2
+</label><br>
+<label>
+      <input type="checkbox" name="hobby[]"> check3
+</label><br>
+<br><HR><br>
+<label>
+<input type="radio" name="radio_group" value="value_01" id="Checkbox_Group1_0" checked> 1
+</label>
+<label>
+<input type="radio" name="radio_group" value="value_02" id="Checkbox_Group2_0"> 2
+</label>
+<br><HR><br>
+<input type="email" name=“email” placeholder="это обязательное поле" required> <br>
+<input type="text" name=“text” autocomplete="off"> <br>
+<br><HR><br>
+<input type="submit" value="Отправить">
+<input type="reset" value="Сбросить">
+<input type="image" src="email.gif">
+<input type=“button" value=“Кнопка">
+<br><HR><br>
+<input type="file" name="file_Field" dir=“ltr”>
+<br><HR><br>
+<textarea name="text_area" lang="ru">Текст по умолчанию</textarea>
+<br><HR><br>
+<select name="list" id="list">
+<option value="1">Минск</option>
+<option value="2">Брест</option>
+<option value="0" selected>Город</option>
+</select>
+<br><HR><br>
+<select name="list[]" size="3" multiple id="list">
+  <option value="1">Минск</option>
+  <option value="2" disabled>Брест</option>
+  <option value="0" selected>Город</option>
+</select>
+<br><HR><br>
+<select name="list" id="list"><br>
+<optgroup label="Города РБ">
+      <option value="1">Брест</option>
+      <option value="2">Минск</option>
+      <option value="3">Витебск</option>
+</optgroup>
+<optgroup label="Города России">
+      <option value="4">Москва</option>
+      <option value="5">Рязань</option>
+      <option value="6">Магадан</option>
+</optgroup>
+</select>
+<br><HR><br>
+<input type="email" placeholder="введите адрес почты"> <br>
+<input type="url" placeholder="введите адрес сайта"> <br>
+<input type="date" placeholder="выберите дату"> <br>
+<input type="time" placeholder="введите время"> <br>
+<input type="number" min="0" max="100" step="10"> <br>
+<input type="range" min="1" max="10"> <br>
+<br><HR><br>
+<label for ="index_1" >Индекс:</label>
+ <INPUT TYPE="text" ID="index_1" NAME="index_1" pattern="[0-9]{6,10}"> <small>(от 6 до 10) цифр</small><br>
+<label for ="index_2" >Индекс:</label>
+<INPUT TYPE="text" ID="index_2" NAME="index_2" pattern="^[A-Z].*"> <small>(Начинаться должно только с заглавной буквы)</small>
+    <br><HR><br>
+<input type="text" placeholder="Введите текст">
+<input type="file" name="file_Field[]" id="file_Field" multiple>
+<input type=“email” name=“email[]” id=“email” multiple>
