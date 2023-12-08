@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Andrey Ksenzov Web Practic</title>
+	<style>
+		body {
+			height:1000px ;
+			background-color: black;
+		}
+		.header{
+			text-align: center;
+			height:50px;
+			background:black;
+            color: white;
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+		.menu{
+			width: 200px;
+			height: 1480px;
+			float:left;
+            background:#2f2f2f;
+            color: white;
+            font-size: 12px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+		.content{
+			background: gray;
+            color: white;
+			margin-left: 200px;	
+			margin-right: 200px;
+		}
+		.banner{
+			width:200px;
+			height: 475px;
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+			background:#2f2f2f;
+            color: white;
+			float:right;
+		}
+		.footer{
+			height: 25px;
+			background:#779de7;
+			clear:both;
+			background:black;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+		.wrap{
+			background: darkgray;	
+		}
+		.clear{
+			/*height:10px;
+			background:#000000;*/
+			clear:both;		
+		}
+		a:visited {
+  color: white;
+}
+        ul {list-style-type: none;}
+	</style>
+    <script type="text/javascript">
+        function newSrc(newSrc) {
+        document.getElementById("MyFrame").src=newSrc;
+     }
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="snow/snow.js"></script>
+</head>
+<body>
+    <div id="snow">	</div>
+	<div class="header">
+        Andrey Ksenzov Web Practic 
+    </div>
+	<div class="wrap">
+		<div class="menu">
+            <ul>
+                <li><a href="#" onclick="newSrc('sample.html');">Главная</a></li>
+                <li>01_HTML</li>
+                <ul>
+                    <li>add</li>
+                    <ul>
+                        <li><a href="#" onclick="newSrc('../01_HTML/add/index.html');">index.html</a></li>
+                    </ul>
+					<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../01_HTML/home/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../01_HTML/home/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../01_HTML/home/index3.html');">index3.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../01_HTML/lesson/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../01_HTML/lesson/index2.html');">index2.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../01_HTML/index.html');">index.html</a></li>
+                </ul>
+				<br>
+				<li>02_HTML</li>
+				<ul>
+				<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../02_HTML/home/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../02_HTML/home/index2.html');">index2.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../02_HTML/lesson/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../02_HTML/lesson/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../02_HTML/lesson/index3.html');">index3.html</a></li>
+						<li><a href="#" onclick="newSrc('../02_HTML/lesson/index4.html');">index4.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../02_HTML/index.html');">index.html</a></li>
+					</ul>
+                <br>
+				<li>03_HTML</li>
+                <ul>
+                    <li>add</li>
+                    <ul>
+                        <li><a href="#" onclick="newSrc('../03_HTML/add/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index1_1.html');">index1_1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index2.html');">index2.html</a></li>
+
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index2_1.html');">index2_1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index2_2.html');">index2_2.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index3.html');">index3.html</a></li>
+
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index3_1.html');">index3_1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index3_2.html');">index3_2.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index4.html');">index4.html</a></li>
+
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index4_1.html');">index4_1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/add/index4_2.html');">index4_2.html</a></li>
+                    </ul>
+					<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../03_HTML/home/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/home/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../03_HTML/home/index3.html');">index3.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../03_HTML/lesson/index.html');">index.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../03_HTML/index1.html');">index1.html</a></li>
+					<li><a href="#" onclick="newSrc('../03_HTML/index2.html');">index2.html</a></li>
+                </ul>
+				<li>04_HTML</li>
+                <ul>
+					<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../04_HTML/home/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../04_HTML/home/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../04_HTML/home/index3.html');">index3.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../04_HTML/lesson/index.html');">index.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../04_HTML/index.html');">index.html</a></li>
+                </ul>
+				<br>
+				<li>05_HTML</li>
+                <ul>
+					<li>add</li>
+                    <ul>
+                        <li><a href="#" onclick="newSrc('../05_HTML/add/index.html');">index.html</a></li>
+                    </ul>
+					<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../05_HTML/home/index.html');">index.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../05_HTML/lesson/index1.html');">index1.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../05_HTML/index.html');">index.html</a></li>
+                </ul>
+				<br>
+				<li>06_HTML</li>
+                <ul>
+					<li>home</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../06_HTML/home/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/home/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/home/index3.html');">index3.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/home/index4.html');">index4.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/home/index5.html');">index5.html</a></li>
+					</ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index3.html');">index3.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index4.html');">index4.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index5.html');">index5.html</a></li>
+
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index6.html');">index6.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index7.html');">index7.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index8.html');">index8.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index9.html');">index9.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index10.html');">index10.html</a></li>
+
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index11.html');">index11.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index12.html');">index12.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index13.html');">index13.html</a></li>
+						<li><a href="#" onclick="newSrc('../06_HTML/lesson/index14.html');">index14.html</a></li>
+					</ul>
+                </ul>
+				<br>
+				<li>07_HTML</li>
+                <ul>
+					<li>lesson</li>
+					<ul>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index1.html');">index1.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index2.html');">index2.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index3.html');">index3.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index4.html');">index4.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index5.html');">index5.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index6.html');">index6.html</a></li>
+						<li><a href="#" onclick="newSrc('../07_HTML/lesson/index7.html');">index7.html</a></li>
+					</ul>
+					<li><a href="#" onclick="newSrc('../07_HTML/test1.html');">test1.html</a></li>
+					<li><a href="#" onclick="newSrc('../07_HTML/test2.html');">test2.html</a></li>
+                </ul>
+				<br>
+            </ul>
+        </div>
+		<div class="banner">
+            <img width="180" height="180" src="logo.png">
+            My logo
+            <a href="https://github.com/AndKse/"><img width="180" height="180" src="github.png">
+            </a>
+            My github
+        </div>
+		<div class="content">
+            <iframe src="sample.html" id="MyFrame" style="width: 99.7%;height: 1480px;overflow:scroll;" ></iframe>
+        </div>
+		<div class="clear"></div>
+	</div>
+	<div class="footer">© Andrey Ksenzov Web Practic 2023</div>
+</body>
+</html>
