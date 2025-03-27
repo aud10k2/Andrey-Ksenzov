@@ -1,0 +1,11 @@
+{
+  "name": "Саша",
+  "age": 25,
+  "isAdmin": false,
+  "courses": ["html", "css", "js"],
+  "curator": {
+    "surname": "Иванова",
+    "patronymic": "Ольга Петровна"
+  },
+  "excellent student": null
+}

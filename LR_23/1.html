@@ -1,0 +1,40 @@
+<script>
+    let jsonStudent = `{
+  "name": "Саша",
+  "age": 25,
+  "isAdmin": false,
+  "courses": ["html", "css", "js"],
+  "curator": {
+    "surname": "Иванова",
+    "patronymic": "Ольга Петровна"
+  },
+  "excellent student": null
+}`;
+    let student = {
+        name: 'Саша',
+        age:25,
+        isAdmin: false,
+        courses: ['html', 'css', 'js'],
+        curator: {
+            surname: "Ивановна",
+            name: "Ольга Петровна"
+        },
+        "excellent student":null
+    };
+    let strJson = JSON.stringify(student);
+    let objStudent = JSON.parse(jsonStudent);
+    alert(objStudent.name);
+    alert(objStudent.courses[2]);
+    alert(objStudent.curator.surname);
+
+    let str = '{"title":"Conference", "date":"2022-03-08T12:00:00.000Z"}';
+    let obj = JSON.parse(str, function(key, value) 
+    {
+        if (key == 'date') return new Date(value);
+        return value;
+    });
+
+alert(obj.date.toDateString()); // Tue Mar 08 2022
+</script>
+
+

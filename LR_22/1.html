@@ -1,0 +1,24 @@
+<p id="id1">
+<script>
+    let str1 = "Я ЛюБлЮ JavaScript";
+    let regexp1_1 = /люблю/;
+    alert(regexp1_1.test(str1)); //0
+    let regexp1_2 = /люблю/i;
+    alert(regexp1_2.test(str1));
+    let str2 = "Я Люблю JavaScript";
+    let regexp2 = /люблю/ig;
+    alert(regexp2.test(str2) + ", позиция: " + regexp2.lastIndex); 
+    alert(regexp2.test(str2) + ", позиция: " + regexp2.lastIndex); 
+
+    let str3 = 'Больше о JavaScript на learn.javascript.ru';
+    let regexp3 = /javascript/i;
+    alert(regexp3.exec(str3)); 
+   
+    let str4 = 'Больше о JavaScript на learn.javascript.ru';
+    let regexp4 = /javascript/ig;
+    let result1 = regexp4.exec(str4);
+    alert(result1 + ", позиция: " + regexp4.lastIndex); 
+    let result2 = regexp4.exec(str4);
+    alert(result2 + ", позиция: " + regexp4.lastIndex);
+
+</script>

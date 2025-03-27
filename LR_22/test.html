@@ -1,0 +1,52 @@
+
+    <h1>Тест по JavaScript</h1>
+    <form id="quizForm">
+        <fieldset>
+            <legend>1. Какой из этих вариантов является оператором сравнения?</legend>
+            <label><input type="radio" name="question1" value="A"> A) =</label><br>
+            <label><input type="radio" name="question1" value="B"> B) ==</label> <!-- Правильный ответ -->
+            <br>
+            <label><input type="radio" name="question1" value="C"> C) =></label>
+
+            <legend>2. Какие из перечисленных типов данных существуют в JavaScript?</legend>
+            <label><input type="checkbox" name="question2" value="A"> A) Number</label> <!-- Правильный ответ -->
+            <br>
+            <label><input type="checkbox" name="question2" value="B"> B) String</label> <!-- Правильный ответ -->
+            <br>
+            <label><input type="checkbox" name="question2" value="C"> C) Character</label>
+            <br>
+            <label><input type="checkbox" name="question2" value="D"> D) Null</label> <!-- Правильный ответ -->
+
+            <legend>3. Какой метод используется для добавления элемента в конец массива?</legend>
+            <select name="question3">
+                <option value="A">A) pop()</option>
+                <option value="B">B) push()</option> <!-- Правильный ответ -->
+                <option value="C">C) shift()</option>
+            </select>
+
+            <legend>4. Напишите из какого языка программирования был создан JavaScript:</legend>
+            <input type="text" name="question4" placeholder="Ваш ответ..."> <!-- Правильный ответ: Java -->
+
+            <legend>5. Соответствие (соедините, пожалуйста):</legend>
+            <ul>
+                <li>
+                    <label>1) Функция</label>
+                    <select name="matching1">
+                        <option value="A">A) Значение, которое возвращает функция</option>
+                        <option value="B">B) Блок кода, выполняющийся по вызову</option> <!-- Правильный ответ -->
+                        <option value="C">C) Переменная, которая может изменяться</option>
+                    </select>
+                </li>
+                <li>
+                    <label>2) Переменная</label>
+                    <select name="matching2">
+                        <option value="A">A) Значение, которое возвращает функция</option>
+                        <option value="B">B) Блок кода, выполняющийся по вызову</option>
+                        <option value="C">C) Переменная, которая может изменяться</option> <!-- Правильный ответ -->
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+
+        <button type="button" onclick="calculateScore()">Отправить</button>
+    </form>

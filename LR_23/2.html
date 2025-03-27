@@ -1,0 +1,31 @@
+<script>
+    let student = {   
+    name: 'John',   
+    age: 30,   
+    isAdmin: false,   
+    courses: ['html', 'css', 'js'],   
+    wife: null 
+    }; 
+ let json = JSON.stringify(student); 
+ alert(typeof json); // мы получили строку! 
+ alert(json); 
+
+
+ let user2 = { 
+  name: "Василий Иванович", 
+  age: 35 
+}; 
+let user2json = JSON.parse(user2);
+alert(typeof user2json);
+let user2json2str = JSON.stringify(user2json);
+alert(typeof user2json2str);
+
+let value = JSON.parse([str, reviver]);
+ let numbers = "[0, 1, 2, 3]"; 
+ numbers = JSON.parse(numbers); 
+ alert(numbers[1]);
+ let user = '{ "name": "John", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
+ user = JSON.parse(user); 
+ alert(user.friends[1]);
+
+</script>

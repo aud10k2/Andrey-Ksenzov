@@ -1,0 +1,20 @@
+<p id="id1">
+    <script>
+        let str6 = "dddd...qw@e.rt.com";
+        let regexp6 = /^\w+([\.\w]+)*\w@\w((\.\w)*\w+)*\.\w{2,3}$/;//dddd.qw@e.rt.com
+        alert(regexp6.test(str6)); 
+        
+        let str7 = "123-12-56";
+        let regexp7 =  /\d{3}-\d{2}-\d{2}/m;
+        alert(regexp7.test(str7)); 
+    
+        let str8_1 = "\$str=\"11 aaa bbb \".\n\"ccc 22 ddd\".\n\"eee ggg 33\"";
+        let str8_2 = "11 aaa bbb ccc 22 ddd eee ggg 33";
+
+        let regexp8_1 =  /\d\d/m;
+        let regexp8_2 =  /^\d\d/m;
+        let regexp8_3 =   /^\d\d\d$/m;
+        alert(regexp8_1.exec(str8_2));
+        alert(regexp8_2.exec(str8_2));
+        alert(regexp8_3.exec(str8_2));
+    </script>
