@@ -1,15 +1,15 @@
-<h2>Форма для регистрации</h2>
-<form action="31_1.php" method="POST"> <!-- создаем форму -->
-    <!-- данные формы будет обрабатывать файл 31_1.php при отправке запроса будет использован метод POST -->
+﻿<h2>Форма для регистрации</h2>
+<form action="31_1.php" method="POST"> 
+
     
     Имя <br>
-    <input type="text" name="first_name" placeholder="Введите ваше имя" required><br> <!-- Исправлено имя поля -->
+    <input type="text" name="first_name" placeholder="Введите ваше имя" required><br> 
     
     Фамилия <br>
-    <input type="text" name="last_name" required><br> <!-- Добавлено требование для поля -->
+    <input type="text" name="last_name" required><br> 
     
     E-mail <br>
-    <input type="email" name="email" required><br> <!-- Изменен тип на email для валидации -->
+    <input type="email" name="email" required><br> 
     
     <p>Выберите спецкурс, который вы хотели посещать: <br>
     <input type="radio" name="kurs" value="PHP" required>PHP<br>
@@ -20,8 +20,8 @@
     <textarea name="comment" cols="32" rows="5"></textarea>
     
     <p>
-    <input name="confirm" type="checkbox" checked required>Подтвердить получение <br> <!-- Добавлено требование для чекбокса -->
+    <input name="confirm" type="checkbox" checked required>Подтвердить получение <br> 
     
     <input type="submit" value="Отправить">
-    <input type="reset" value="Сбросить"> <!-- Исправлено на "Сбросить" -->
+    <input type="reset" value="Сбросить"> 
 </form>
