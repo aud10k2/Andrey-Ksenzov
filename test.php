@@ -1,4 +1,4 @@
-
+<meta charset="utf-8">
 <?
 
 function interpretScore($score) {
