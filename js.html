@@ -1,0 +1,37 @@
+
+<style>
+#move {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: relative; 
+}
+</style>
+
+<div id="move"></div>
+
+<script>
+const move = document.getElementById('move');
+let pos = 0; 
+
+
+function moveDiv(dir)
+ {
+  if (dir === 'left') {
+    pos -= 100;
+  } else if (dir === 'right') {
+    pos += 100;
+  }
+  move.style.left = pos + 'px';
+}
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'ArrowLeft') {
+    moveDiv('left');
+  } else if (event.key === 'ArrowRight') {
+    moveDiv('right');
+  }
+});
+</script>
+
+
